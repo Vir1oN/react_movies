@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import {MovieService} from "./services";
 
+MovieService.getMovies().then(console.log);
 function App() {
   return (
     <div className="App">
